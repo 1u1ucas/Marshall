@@ -1,0 +1,34 @@
+.right {
+  width: 100%;
+  height: 100vh;
+  max-width: 30%;
+}
+
+.right-top {
+  background-image: url("../assets/marshall_headset_2.jpeg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  max-height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.right-top img {
+  width: 100%;
+  height: 100%;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.right-down {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--secondary-bg-dark-color);
+  height: 100%;
+  max-height: 50%;
+  color: var(--main-txt-color);
+  justify-content: space-between;
+  padding: 60px;
+}

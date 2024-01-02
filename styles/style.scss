@@ -1,0 +1,19 @@
+@import "_Root.scss";
+@import "_CenterPart.scss";
+@import "_LeftPart.scss";
+@import "_RightPart.scss";
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@import "_(1080)queries.scss";
+@import "_(740)queries.scss";
+@import "_(600)queries.scss";
